@@ -72,6 +72,15 @@ nav {
   display: flex;
 }
 
+nav .nameContainer {
+  margin-right: 1rem;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  background-color: #BBB;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
 nav button {
   margin-right: 1rem;
   padding: 1rem;

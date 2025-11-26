@@ -13,6 +13,28 @@ body {
   font-family: Lucida Sans Typewriter, Lucida Typewriter, monospace;
 }
 
+header {
+  flex-shrink: 0;
+  /* text-align: center; */
+  padding: 0.5rem 0;
+  z-index: 1;
+  background: #202020;
+}
+
+nav {
+  display: flex;
+}
+
+nav .nameContainer {
+  margin-right: 1rem;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  background-color: #BBB;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+
 main {
   flex: 1;
   display: flex;
