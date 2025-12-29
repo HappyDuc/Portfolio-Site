@@ -1,0 +1,12 @@
+.container p {
+    text-align: justify;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  margin: 20px;
+}

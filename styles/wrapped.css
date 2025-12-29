@@ -1,0 +1,12 @@
+.container {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  margin: 20px;
+}
