@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background: #434e6f;
-  font-family: Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  font-family: Lucida Sans Typewriter, Lucida Typewriter, monospace; 
 }
 
 header {
@@ -32,7 +32,6 @@ nav .nameContainer {
   margin-left: 1rem;
 }
 
-
 main {
   flex: 1;
   display: flex;
@@ -47,41 +46,16 @@ main {
   align-items: center;
   text-align: center;
   z-index: 1;
-  width: 50%;
 }
 
 .container h1 {
   font-size: 3rem;
   margin: 0;
   color: #8ab8c4;
-  padding-bottom: 3rem;
 }
 
-.container h2 {
-  font-size: 2rem;
-  margin: 0;
-  color: #8ab8c4;
-}
-
-.container ul {
-  list-style-type: none;
-}
-
-p {
-    margin: 0;
-}
-
-.container a, .container p {
+.container p {
   margin-top: 1rem;
   font-size: 1.25rem;
   color: #d4efff;
-  text-decoration: none;
-  background-color: #383a3f;
-  padding: 0.5rem;
-  border-radius: 16px;
-}
-
-.container li {
-  margin: 0.5rem;
-  padding: 0.5rem;
 }
