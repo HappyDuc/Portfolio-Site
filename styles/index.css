@@ -2,7 +2,7 @@ nav button {
   margin-right: 1rem;
   padding: 1rem;
   text-decoration: none;
-  background-color: #BBB;
+  background-color: #bbb;
   border-radius: 25%;
 }
 
@@ -43,11 +43,18 @@ nav button.leftmost {
   box-shadow: 0 0 10px 10px rgb(140, 180, 200);
 }
 
+#siteInfo {
+  background-color: rgb(230, 30, 160);
+  box-shadow: 0 0 10px 10px rgb(230, 30, 160);
+}
+
 .revealedArea {
   position: fixed;
   inset: 0;
   background: radial-gradient(
-      circle 50vh at 50% 50%, transparent 10%, rgba(0, 0, 0, 0.98)
+    circle 50vh at 50% 50%,
+    transparent 10%,
+    rgba(0, 0, 0, 0.98)
   );
   pointer-events: none;
 }

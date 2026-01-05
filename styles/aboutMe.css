@@ -1,5 +1,5 @@
 .container p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .row {
@@ -9,4 +9,7 @@
 .column {
   flex: 10%;
   margin: 20px;
+  padding: 0rem 1rem;
+  background-color: grey;
+  border-radius: 10%;
 }
