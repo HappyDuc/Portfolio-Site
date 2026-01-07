@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jake Sinclair</title>
-    <link rel="stylesheet" href="./styles/generic.css"/>
+    <link rel="stylesheet" href="./styles/generic.css" />
     <link rel="stylesheet" href="./styles/index.css" />
     <script src="./scripts/index.js"></script>
   </head>
@@ -15,11 +15,29 @@
         <div class="nameContainer">
           <h1>Jake Sinclair</h1>
         </div>
-        <button id="lightToggle" value="false" onclick="toggleLight()" class="leftmost">
-          <img id="lightImage" src="docs/assets/images/bulb_off.svg" height="50" width="50" draggable="false">
+        <button
+          id="lightToggle"
+          value="false"
+          onclick="toggleLight()"
+          class="leftmost"
+        >
+          <img
+            id="lightImage"
+            src="docs/assets/images/bulb_off.svg"
+            height="50"
+            width="50"
+            draggable="false"
+          />
         </button>
         <button id="speedToggle" value="true" onclick="toggleSpeed()">
-          <img id="speedImage" src="docs/assets/images/hare.svg", height="50" width="50" draggable="false">
+          <img
+            id="speedImage"
+            src="docs/assets/images/hare.svg"
+            ,
+            height="50"
+            width="50"
+            draggable="false"
+          />
         </button>
       </nav>
     </header>
@@ -27,7 +45,11 @@
     <main>
       <div class="container" id="hero">
         <h1 id="name">Jake William Sinclair</h1>
-        <h2>Software Engineer | Fast Learner | Your Future Employee</h2>
+        <div class="row">
+          <div class="column">
+            <h2>Software Engineer | Fast Learner | Your Future Employee</h2>
+          </div>
+        </div>
       </div>
       <div class="floatingLink" id="planetarium">
         <a href="./pages/planetarium.html">Planetarium</a>
