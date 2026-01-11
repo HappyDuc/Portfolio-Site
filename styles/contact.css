@@ -2,12 +2,9 @@
   width: 50%;
 }
 
-.container h1 {
-  padding-bottom: 3rem;
-}
-
 .container ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 p {
@@ -15,7 +12,6 @@ p {
 }
 
 .container a, .container p {
-  margin-top: 1rem;
   font-size: 1.25rem;
   color: #d4efff;
   text-decoration: none;

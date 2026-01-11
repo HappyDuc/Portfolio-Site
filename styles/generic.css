@@ -8,7 +8,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #434e6f;
+  /* background: #434e6f; */
+  background: #434E6F;
+background: linear-gradient(135deg, rgba(67, 78, 111, 1) 0%, rgba(67, 78, 111, 1) 50%, rgba(30, 90, 160, 1) 100%);
   font-family: Lucida Sans Typewriter, Lucida Typewriter, monospace; 
 }
 
@@ -79,5 +81,5 @@ main {
   margin: 20px;
   padding: 0rem 1rem;
   background-color: rgb(160, 100, 30);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
