@@ -7,9 +7,5 @@
 }
 
 .column {
-  flex: 10%;
-  margin: 20px;
-  padding: 0rem 1rem;
-  background-color: #a0641e;
   border-radius: 1rem;
 }
